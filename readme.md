@@ -7,28 +7,6 @@ This project is the frontend part of a full-stack application built with React. 
 - **Express**
 - **MongoDB**
 
-## Tree Structure
-
-├── backend
-│ ├── index.js
-│ ├── models
-│ ├── node_modules
-│ ├── package.json
-│ └── package-lock.json
-├── frontend
-│ ├── index.html
-│ ├── node_modules
-│ ├── package.json
-│ ├── package-lock.json
-│ ├── postcss.config.js
-│ ├── public
-│ ├── README.md
-│ ├── src
-│ ├── tailwind.config.js
-│ └── vite.config.js
-└── readme.md
-
-
 
 ## Prerequisites
 
