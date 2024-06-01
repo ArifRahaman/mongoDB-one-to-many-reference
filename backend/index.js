@@ -11,20 +11,20 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB connection
-mongoose
-  .connect(
-    "mongodb+srv://arifrahaman2606:NTambC6dzWTscSn1@mernstack.emb8nvx.mongodb.net/PDF",
-    {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    }
-  )
-  .then(() => {
-    console.log("MongoDB connected successfully");
-  })
-  .catch((err) => {
-    console.error("MongoDB connection error:", err);
-  });
+// mongoose
+//   .connect(
+//     "",
+//     {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//     }
+//   )
+//   .then(() => {
+//     console.log("MongoDB connected successfully");
+//   })
+//   .catch((err) => {
+//     console.error("MongoDB connection error:", err);
+//   });
 
 // Models
 const EmployeeModel = require("./models/employee");
