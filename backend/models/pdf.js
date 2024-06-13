@@ -1,9 +1,14 @@
+
 const mongoose = require("mongoose");
 
 const PdfSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "employees",
+    required: true,
+  },
+  title: {
+    type: String, // Assuming title is a string
     required: true,
   },
   pdfPath: {
