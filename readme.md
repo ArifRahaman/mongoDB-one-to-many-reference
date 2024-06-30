@@ -1,4 +1,4 @@
-# LoginSignUp - Full-Stack Application with React
+# PDF_POST_AI_CHATBOT - Full-Stack Application with React
 
 This project is the frontend part of a full-stack application built with React. The tech stack used includes:
 
