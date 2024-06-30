@@ -19,7 +19,8 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 
-  ```bash adsf```
+  ```bash
+  adsf```
 
 ### Frontend
 
