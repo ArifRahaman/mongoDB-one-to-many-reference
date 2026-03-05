@@ -1,6 +1,6 @@
-# PDF Management and AI Chatbot Application - Full-Stack
+# PDF Management and AI Chatbot Application
 
-This project is a comprehensive full-stack application designed to manage PDFs, authenticate users, and interact with an AI chatbot. The application integrates both frontend and backend technologies to provide a seamless experience.
+This project is a full-stack application designed for managing PDFs, user authentication, and interaction with an AI chatbot.
 
 ## Features
 
@@ -123,11 +123,11 @@ Create a `.env` file in the backend directory and set the following environment 
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a Pull Request with your changes.
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 20:12:07*
+> 🤖 *Last automated update: 2026-03-05 20:19:45*
