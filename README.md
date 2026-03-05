@@ -13,7 +13,8 @@ This project is a full-stack application designed for managing PDFs, user authen
 
 ## Tech Stack
 
-**Frontend:**
+### Frontend
+
 - React
 - Vite
 - Tailwind CSS
@@ -21,7 +22,8 @@ This project is a full-stack application designed for managing PDFs, user authen
 - React Router DOM
 - React Toastify
 
-**Backend:**
+### Backend
+
 - Node.js
 - Express
 - MongoDB
@@ -40,16 +42,19 @@ This project is a full-stack application designed for managing PDFs, user authen
 ### Frontend
 
 1. Navigate to the frontend directory:
+
     ```bash
     cd frontend/
     ```
 
 2. Install the necessary dependencies:
+
     ```bash
     npm install
     ```
 
 3. Run the React application:
+
     ```bash
     npm run dev
     ```
@@ -57,16 +62,19 @@ This project is a full-stack application designed for managing PDFs, user authen
 ### Backend
 
 1. Navigate to the backend directory:
+
     ```bash
     cd backend/
     ```
 
 2. Install the necessary dependencies:
+
     ```bash
     npm install
     ```
 
 3. Run the backend application:
+
     ```bash
     npm start
     ```
@@ -119,7 +127,7 @@ Create a `.env` file in the backend directory and set the following environment 
 
 ### Search Route
 
-- `GET /search`: Search for users and PDFs.
+- `GET /search`: Search functionality.
 
 ## Contributing
 
@@ -130,4 +138,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 20:23:01*
+> 🤖 *Last automated update: 2026-03-05 20:26:01*
