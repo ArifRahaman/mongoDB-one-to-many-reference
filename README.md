@@ -123,11 +123,11 @@ Create a `.env` file in the backend directory and set the following environment 
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+Contributions are welcome! Please fork the repository and submit a pull request for review.
 
 ## License
 
 This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 20:05:42*
+> 🤖 *Last automated update: 2026-03-05 20:06:46*
