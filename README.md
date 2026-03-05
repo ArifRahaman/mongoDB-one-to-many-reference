@@ -1,6 +1,6 @@
 # PDF_POST_AI_CHATBOT - Full-Stack Application with React
 
-This full-stack application leverages the power of React for frontend and Node.js with Express for the backend, offering functionalities for PDF management, user authentication, and AI chatbot interaction.
+This project is a full-stack application leveraging React for the frontend and Node.js with Express for the backend. It provides functionalities for PDF management, user authentication, and AI chatbot interaction.
 
 ## Features
 
@@ -88,7 +88,7 @@ This full-stack application leverages the power of React for frontend and Node.j
 
 ## Environment Variables
 
-Ensure the following environment variables are set up in your `.env` file:
+Create a `.env` file in the backend directory and set the following environment variables:
 
 - `MONGO_URI` - MongoDB connection string.
 - `JWT_SECRET` - Secret key for JWT.
@@ -120,11 +120,11 @@ Ensure the following environment variables are set up in your `.env` file:
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+Contributions are welcome! Please fork the repository and submit a pull request for any changes.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 01:17:59*
+> 🤖 *Last automated update: 2026-03-05 19:52:34*
