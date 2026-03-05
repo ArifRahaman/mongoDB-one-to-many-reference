@@ -1,15 +1,15 @@
 # PDF Management and AI Chatbot Application - Full-Stack
 
-This project is a full-stack application designed to handle PDF uploads and management, user authentication, and AI chatbot interactions.
+This project is a comprehensive full-stack application designed to manage PDFs, authenticate users, and interact with an AI chatbot. The application integrates both frontend and backend technologies to provide a seamless experience.
 
 ## Features
 
-- User registration and login with OTP verification.
-- Upload, view, and delete PDFs.
-- Profile image upload functionality.
-- AI chatbot integration for interactive communication.
-- CRUD operations for posts.
-- Search functionality for users and PDFs.
+- **User Authentication**: Register, login, and OTP verification.
+- **PDF Management**: Upload, view, and delete PDFs.
+- **Profile Management**: Upload and update profile images.
+- **AI Chatbot**: Engage in interactive communication.
+- **Post Management**: Create, read, update, and delete posts.
+- **Search Functionality**: Search for users and PDFs.
 
 ## Tech Stack
 
@@ -93,41 +93,41 @@ This project is a full-stack application designed to handle PDF uploads and mana
 
 Create a `.env` file in the backend directory and set the following environment variables:
 
-- `MONGO_URI` - MongoDB connection string.
-- `JWT_SECRET` - Secret key for JWT.
-- `EMAIL_SERVICE` - Email service name (e.g., Gmail).
-- `EMAIL_USERNAME` - Username for the email service.
-- `EMAIL_PASSWORD` - Password for the email service.
+- `MONGO_URI`: MongoDB connection string.
+- `JWT_SECRET`: Secret key for JWT.
+- `EMAIL_SERVICE`: Email service name (e.g., Gmail).
+- `EMAIL_USERNAME`: Username for the email service.
+- `EMAIL_PASSWORD`: Password for the email service.
 
 ## API Reference
 
 ### User Routes
 
-- `POST /register` - Register a new user.
-- `POST /login` - User login.
-- `POST /verify-otp` - OTP verification.
+- `POST /register`: Register a new user.
+- `POST /login`: User login.
+- `POST /verify-otp`: OTP verification.
 
 ### PDF Routes
 
-- `POST /upload-pdf` - Upload a PDF.
-- `GET /user-pdfs/:userId` - Get PDFs for a specific user.
-- `DELETE /delete-pdf/:id` - Delete a specific PDF.
+- `POST /upload-pdf`: Upload a PDF.
+- `GET /user-pdfs/:userId`: Get PDFs for a specific user.
+- `DELETE /delete-pdf/:id`: Delete a specific PDF.
 
 ### Profile Image Route
 
-- `POST /upload-profile-image` - Upload a profile image.
+- `POST /upload-profile-image`: Upload a profile image.
 
 ### Search Route
 
-- `GET /search` - Search for users or PDFs.
+- `GET /search`: Search for users or PDFs.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+Contributions are welcome! Please fork the repository and submit a Pull Request with your changes.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
 
 ---
-> 🤖 *Last automated update: 2026-03-05 20:06:46*
+> 🤖 *Last automated update: 2026-03-05 20:12:07*
