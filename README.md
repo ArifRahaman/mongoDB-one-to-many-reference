@@ -1,6 +1,6 @@
-# PDF_POST_AI_CHATBOT - Full-Stack Application with React
+# PDF_POST_AI_CHATBOT - Full-Stack Application
 
-This project is a full-stack application leveraging React for the frontend and Node.js with Express for the backend. It provides functionalities for PDF management, user authentication, and AI chatbot interaction.
+This project is a comprehensive full-stack application utilizing React for the frontend and Node.js with Express for the backend. Its functionalities include PDF management, user authentication, and AI chatbot interaction.
 
 ## Features
 
@@ -17,6 +17,9 @@ This project is a full-stack application leveraging React for the frontend and N
 - React
 - Vite
 - Tailwind CSS
+- Axios
+- React Router DOM
+- React Toastify
 
 **Backend:**
 - Node.js
@@ -120,11 +123,11 @@ Create a `.env` file in the backend directory and set the following environment 
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for any changes.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 19:52:34*
+> 🤖 *Last automated update: 2026-03-05 19:56:58*
