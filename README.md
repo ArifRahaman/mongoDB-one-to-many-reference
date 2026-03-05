@@ -119,15 +119,15 @@ Create a `.env` file in the backend directory and set the following environment 
 
 ### Search Route
 
-- `GET /search`: Search for users or PDFs.
+- `GET /search`: Search functionality.
 
 ## Contributing
 
-If you want to contribute to this project, feel free to fork the repository and submit a pull request. Please ensure your changes are well documented and include appropriate tests.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License.
 
 ---
-> 🤖 *Last automated update: 2026-03-05 20:20:48*
+> 🤖 *Last automated update: 2026-03-05 20:21:51*
