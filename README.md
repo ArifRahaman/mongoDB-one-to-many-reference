@@ -116,15 +116,15 @@ flowchart TD
     frontend_src_main_jsx["src/main.jsx"]
     frontend_src_pages_searchpage_SearchPage_jsx["searchpage/SearchPage.jsx"]
 
-    backend_controllers_Pdf_Pdf_js --> backend_models_pdf_js
-    backend_controllers_Users_user_js --> backend_models_employee_js
-    backend_controllers_Users_user_js --> backend_utils_sendOTP_js
-    frontend_src_App_jsx --> frontend_Context_AuthContext_jsx
     frontend_src_App_jsx --> frontend_src_pages_searchpage_SearchPage_jsx
+    frontend_src_App_jsx --> frontend_Context_AuthContext_jsx
+    frontend_src_components_navbar_Navbar_jsx --> frontend_Context_AuthContext_jsx
+    backend_controllers_Pdf_Pdf_js --> backend_models_pdf_js
+    backend_controllers_Users_user_js --> backend_utils_sendOTP_js
+    backend_controllers_Users_user_js --> backend_models_employee_js
+    frontend_src_components_userprofile_UserProfile_jsx --> frontend_Context_AuthContext_jsx
     frontend_src_main_jsx --> frontend_src_App_jsx
     frontend_src_main_jsx --> frontend_Context_AuthContext_jsx
-    frontend_src_components_navbar_Navbar_jsx --> frontend_Context_AuthContext_jsx
-    frontend_src_components_userprofile_UserProfile_jsx --> frontend_Context_AuthContext_jsx
 
     classDef backend fill:#1a1a2e,stroke:#7c6cf8,color:#e8eaf6
     classDef frontend fill:#0d1b2a,stroke:#00e8a2,color:#e8eaf6
@@ -143,6 +143,67 @@ flowchart TD
     class frontend_src_main_jsx frontend
     class frontend_src_pages_searchpage_SearchPage_jsx frontend
 
+## Pdfpostaichatbot - Full-Stack Application With React
+
+This project is the frontend part of a full-stack application built with React. The tech stack used includes:
+
+- **React Js**
+- **Node JS**
+- **Express**
+- **MongoDB**
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js installed (version 14 or higher recommended)
+- npm or Yarn installed
+
+## Getting Started
+
+1. Clone the repository:
+
+### Frontend
+
+2. Open a new terminal and navigate to the frontend directory:
+
+    ```bash
+    cd frontend/
+    ```
+
+3. Install the necessary dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the React application:
+
+    ```bash
+    npm run dev
+    ```
+
+### Backend
+
+5. Open another terminal and navigate to the backend directory:
+
+    ```bash
+    cd backend/
+    ```
+
+6. Install the necessary dependencies:
+
+    ```bash
+    npm install
+    ```
+
+7. Run the backend application:
+
+    ```bash
+    npm start
+    ```
+
+This setup will start both the frontend and backend applications. Adjustments may be needed based on your specific project structure or configurations.
 
 ---
-> 🤖 *Last automated update: 2026-03-08 01:24:59*
+> 🤖 *Last automated update: 2026-03-08 02:06:46*
