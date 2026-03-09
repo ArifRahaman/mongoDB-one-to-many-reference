@@ -142,11 +142,11 @@ flowchart TD
     frontend_src_main_jsx["src/main.jsx"]
     frontend_src_pages_searchpage_SearchPage_jsx["searchpage/SearchPage.jsx"]
 
+    backend_controllers_Users_user_js --> backend_models_employee_js
+    backend_controllers_Users_user_js --> backend_utils_sendOTP_js
+    backend_controllers_Pdf_Pdf_js --> backend_models_pdf_js
     frontend_src_App_jsx --> frontend_Context_AuthContext_jsx
     frontend_src_App_jsx --> frontend_src_pages_searchpage_SearchPage_jsx
-    backend_controllers_Pdf_Pdf_js --> backend_models_pdf_js
-    backend_controllers_Users_user_js --> backend_utils_sendOTP_js
-    backend_controllers_Users_user_js --> backend_models_employee_js
     frontend_src_components_navbar_Navbar_jsx --> frontend_Context_AuthContext_jsx
     frontend_src_main_jsx --> frontend_Context_AuthContext_jsx
     frontend_src_main_jsx --> frontend_src_App_jsx
@@ -175,4 +175,6 @@ flowchart TD
 This section is retained for historical context and does not contradict the current implementation. Please refer to the main sections for the most up-to-date information.
 
 ---
-> 🤖 *Last automated update: 2026-03-08 11:10:09*
+
+---
+> 🤖 *Last automated update: 2026-03-09 12:08:40*
